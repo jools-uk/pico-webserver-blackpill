@@ -1,6 +1,7 @@
-# pico-webserver
+# pico-webserver-blackpill
 
 Webserver example that came with TinyUSB slightly modified to run on a Raspberry Pi Pico.
+This version is for a generic Chinese RP2040 board that I'm calling the 'RP2040 Black Pill'. Possibly a clone of the VCC-GND manufactured board.
 Lets the Pico pretend to be a USB Ethernet device. Runs a webinterface at http://192.168.7.1/
 
 ## Build dependencies
