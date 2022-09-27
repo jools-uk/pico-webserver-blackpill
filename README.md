@@ -33,3 +33,9 @@ Content it is serving is in /fs
 If you change any files there, run ./regen-fsdata.sh
 
 By default it shows a webpage that led you toggle the Pico's led, and allows you to switch to BOOTSEL mode.
+
+## Ubunut note
+The USB Ethernet device might not initialize unless, 1 you set NetworkManager to allow all network devices:
+https://askubuntu.com/questions/1026358/usb-ethernet-interface-in-virtual-ubuntu-18-04-disabled-after-every-reboot
+Or manually bring the interface up (well the dhclient):
+sudo dhclient usb0
